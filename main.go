@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"os"
+	"strings"
 	"text/template"
 
 	"github.com/tealeg/xlsx"
@@ -61,12 +62,15 @@ func main() {
 			var choose []string
 			for i, cell := range row.Cells {
 				text := cell.String()
+				text = strings.TrimSpace(text)
 				if i == 0 {
 					item.Answer = text
 				} else if i == 1 {
 					item.Question = text
 				} else {
-					choose = append(choose, text)
+					if len(text) != 0 {
+						choose = append(choose, text)
+					}
 				}
 			}
 			item.Choose = choose
