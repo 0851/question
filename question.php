@@ -2,123 +2,23 @@
 <?php
 $questions = [
 	[
-		"answer" => "adlkj1",
-		"question" => "alksdjdd",
+		"answer" => "向信息安全部汇报",
+		"question" => "发现同事a电脑中毒应怎么办？",
 		"choose" => [
-			"alksdjdddd",
-			"alkddjd",
-			"alkdjdd",
-			"lkajdd",
-			"alskd",
-			"aklsdd" 
+			"不关我事，继续办公",
+			"协助同事查找问题",
+			"向信息安全部汇报",
+			"用U盘把同事电脑里文件备份到自己电脑" 
 		]
 	],
 	[
-		"answer" => "adlkj2",
-		"question" => "alksdjdd",
+		"answer" => "向信息安全部汇报",
+		"question" => "发现同事b电脑中毒应怎么办？",
 		"choose" => [
-			"alksdjdddd",
-			"alkddjd",
-			"alkdjdd",
-			"lkajdd",
-			"alskd",
-			"aklsdd" 
-		]
-	],
-	[
-		"answer" => "adlkj3",
-		"question" => "alksdjdd",
-		"choose" => [
-			"alksdjdddd",
-			"alkddjd",
-			"alkdjdd",
-			"lkajdd",
-			"alskd",
-			"aklsdd" 
-		]
-	],
-	[
-		"answer" => "adlkj4",
-		"question" => "alksdjdd",
-		"choose" => [
-			"alksdjdddd",
-			"alkddjd",
-			"alkdjdd",
-			"lkajdd",
-			"alskd",
-			"aklsdd" 
-		]
-	],
-	[
-		"answer" => "adlkj5",
-		"question" => "alksdjdd",
-		"choose" => [
-			"alksdjdddd",
-			"alkddjd",
-			"alkdjdd",
-			"lkajdd",
-			"alskd",
-			"aklsdd" 
-		]
-	],
-	[
-		"answer" => "adlkj6",
-		"question" => "alksdjdd",
-		"choose" => [
-			"alksdjdddd",
-			"alkddjd",
-			"alkdjdd",
-			"lkajdd",
-			"alskd",
-			"aklsdd" 
-		]
-	],
-	[
-		"answer" => "adlkj7",
-		"question" => "alksdjdd",
-		"choose" => [
-			"alksdjdddd",
-			"alkddjd",
-			"alkdjdd",
-			"lkajdd",
-			"alskd",
-			"aklsdd" 
-		]
-	],
-	[
-		"answer" => "adlkj8",
-		"question" => "alksdjdd",
-		"choose" => [
-			"alksdjdddd",
-			"alkddjd",
-			"alkdjdd",
-			"lkajdd",
-			"alskd",
-			"aklsdd" 
-		]
-	],
-	[
-		"answer" => "adlkj9",
-		"question" => "alksdjdd",
-		"choose" => [
-			"alksdjdddd",
-			"alkddjd",
-			"alkdjdd",
-			"lkajdd",
-			"alskd",
-			"aklsdd" 
-		]
-	],
-	[
-		"answer" => "adlkj10",
-		"question" => "alksdjdd",
-		"choose" => [
-			"alksdjdddd",
-			"alkddjd",
-			"alkdjdd",
-			"lkajdd",
-			"alskd",
-			"aklsdd" 
+			"不关我事，继续办公",
+			"协助同事查找问题",
+			"向信息安全部汇报",
+			"用U盘把同事电脑里文件备份到自己电脑" 
 		]
 	] 
 ];

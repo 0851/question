@@ -117,7 +117,7 @@ echo json_encode($items);
 	check(err)
 	defer f.Close()
 	n, err := f.WriteString(result) //写入文件(字节数组)
-	fmt.Printf("写入 %d 个字节n", n)
+	fmt.Printf("写入 %d 个字节n, %s", n, result)
 	f.Sync()
 
 }
