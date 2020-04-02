@@ -5,7 +5,11 @@ mk = rm -rf upx/$(1)$(2)/$(3) \
 && upx -9 -o upx/$(1)$(2)/$(3) build/$(1)$(2)/$(3)
 
 qs:
-	
+	$(call mk,linux,mips,$@)
+	$(call mk,linux,386,$@)
+	$(call mk,linux,arm64,$@)
+	$(call mk,linux,amd64,$@)
+	$(call mk,darwin,amd64,$@)
 	$(call mk,windows,386,$@.exe)
 	$(call mk,windows,amd64,$@.exe)
 	git add .
