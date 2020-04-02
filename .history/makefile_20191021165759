@@ -10,7 +10,6 @@ qs:
 	$(call mk,linux,arm64,$@)
 	$(call mk,linux,amd64,$@)
 	$(call mk,darwin,amd64,$@)
-	$(call mk.exe,windows,amd64,$@)
 	git add .
 	git commit -am 'build...'
 	git push
