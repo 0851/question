@@ -5,6 +5,8 @@ mk = rm -rf upx/$(1)$(2)/$(3) \
 && upx -9 -o upx/$(1)$(2)/$(3) build/$(1)$(2)/$(3)
 
 qs:
+	rm -rf build
+	rm -rf upx
 	$(call mk,linux,mips,$@)
 	$(call mk,linux,386,$@)
 	$(call mk,linux,arm64,$@)
@@ -12,6 +14,10 @@ qs:
 	$(call mk,darwin,amd64,$@)
 	$(call mk,windows,386,$@.exe)
 	$(call mk,windows,amd64,$@.exe)
+	tar -czvf build.tar.gz -C build ./
+	tar -czvf upx.tar.gz -C upx ./
+	rm -rf build
+	rm -rf upx
 	git add .
 	git commit -am 'build...'
 	git push
